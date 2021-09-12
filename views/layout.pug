@@ -1,0 +1,22 @@
+html
+    head 
+        title 
+        block scripts 
+        block style
+            style 
+                include ../static/style.css 
+
+    body 
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/logo.jpg")
+                    | BDA 
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Blogs</a></li>
+                <li><a href="/contacts">Contact Us</a></li>
+
+        block home
+        block content 
+        #footer Website designed and managed by Anushka Dubey.

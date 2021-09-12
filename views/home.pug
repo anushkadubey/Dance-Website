@@ -1,0 +1,40 @@
+extends layout.pug 
+
+block scripts 
+    script("/static/home.js")
+
+block style
+    style 
+        include ../static/style.css 
+
+block home       
+    section#introSection 
+        div Ballet Dance Academy
+
+    section#missionHead
+        h2 Our Mission
+
+    section#missionSection 
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="https://image.flaticon.com/icons/png/128/195/195131.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="https://image.flaticon.com/icons/png/128/494/494687.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="https://image.flaticon.com/icons/png/128/1533/1533836.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
